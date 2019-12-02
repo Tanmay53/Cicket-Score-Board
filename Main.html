@@ -1,0 +1,57 @@
+<!Doctype HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cricket Score Board</title>
+        <script src="jquery-3.3.1.js"></script>
+        <link rel="stylesheet" type="text/css" href="Front_End.css">
+    </head>
+    <body>
+        <table id="board">
+            <tr>
+                <td class="hText">Bat Strike <span id="bS">1</span></td>
+                <td class="hText">Total</td>
+                <td class="hText">Bat Non - Strike <span id="bNS">2</span></td>
+            </tr>
+            <tr>
+                <td class="boardPoints" id="bSScore">0</td>
+                <td class="boardPoints" id="tot">0</td>
+                <td class="boardPoints" id="bNSScore">0</td>
+            </tr>
+            <tr>
+                <td class="hText">1<sup>st</sup> Innings</td>
+                <td class="hText">Wickets</td>
+                <td class="hText">Overs</td>
+            </tr>
+            <tr>
+                <td class="boardPoints" id="inngs">0</td>
+                <td class="boardPoints" id="wkts">0</td>
+                <td class="boardPoints" id="overs">0</td>
+            </tr>
+        </table>
+        <table id="controllers">
+            <caption id="ctHead">Runs</caption>
+            <tr id="pts">
+                <td class="points" id="zr">0</td>
+                <td class="points" id="one">1</td>
+                <td class="points" id="tw">2</td>
+                <td class="points" id="thr">3</td>
+                <td class="points" id="fur">4</td>
+                <td class="points" id="six">6</td>
+            </tr>
+            <tr id="wktType" style="display: none;">
+                <td id="wS" colspan="3">Strike</td>
+                <td id="wNS" colspan="3">Non Strike</td>
+            </tr>
+            <tr id="btns">
+                <td id="ext">Extras</td>
+                <td class="extras" id="wd">Wide</td>
+                <td class="extras" id="wkt">Wicket</td>
+                <td class="extras" id="nb">No Ball</td>
+                <td class="extras" id="bye">Bye</td>
+                <td class="extras" id="lby">Leg Bye</td>
+            </tr>
+        </table>
+        <script src="Control.js"></script>
+    </body>
+</html>
