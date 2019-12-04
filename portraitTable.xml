@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portrait>
+    <row class="pts">
+        <data class="points" id="zr">0</data>
+        <data class="points" id="one">1</data>
+    </row>
+    <row class="pts">
+        <data class="points" id="tw">2</data>
+        <data class="points" id="thr">3</data>
+    </row>
+    <row class="pts">
+        <data class="points" id="fur">4</data>
+        <data class="points" id="six">6</data>
+    </row>
+    <row id="wktType" style="display: none;">
+        <data id="wS" colspan="3">Strike</data>
+        <data id="wNS" colspan="3">Non Strike</data>
+    </row>
+    <row class="btns">
+        <data colspan="2" id="ext">Extras</data>
+    </row>
+    <row class="btns">
+        <data colspan="2" class="extras" id="wd">Wide</data>
+    </row>
+    <row class="btns">
+        <data class="extras" id="wkt">Wicket</data>
+        <data class="extras" id="nb">No Ball</data>
+    </row>
+    <row class="btns">
+        <data class="extras" id="bye">Bye</data>
+        <data class="extras" id="lby">Leg Bye</data>
+    </row>
+</portrait>
