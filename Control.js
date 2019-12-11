@@ -125,16 +125,4 @@ function tableEvents() {
             }
         }
     });
-    $(".pts td").on("mousedown", function() {
-        $(this).addClass("mDown");
-    });
-    $(".pts td").on("mouseup", function() {
-        $(this).removeClass("mDown");
-    });
-    $(".btns td").on("mousedown", function() {
-        $(this).addClass("mDown1");
-    });
-    $(".btns td").on("mouseup", function() {
-        $(this).removeClass("mDown1");
-    });
 }

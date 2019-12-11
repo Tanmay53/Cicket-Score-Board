@@ -69,15 +69,20 @@
     font-family: button1;
     font-size: 2em;
     background-color: #f8e85b;
+    width: 50%;
+    text-align: center;
 }
 #wktType {
     display: none;
 }
-.mDown {
+.points:hover {
     background-color: #3a03d0;
 }
-.mDown1 {
+.extras:hover {
     background-color: #02ba71;
+}
+#wktType td:hover {
+    background-color: #fed72f;
 }
 body {
     background-color: #dddddd;

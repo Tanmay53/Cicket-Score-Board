@@ -7,7 +7,7 @@
     text-align: center;
     border-style: double;
     border-width: 0.5em;
-    border-color: #fffd0e;
+    border-color: #000000;
     background-color: #fffd0e;
 }
 #board tr {
@@ -20,14 +20,15 @@
     position: relative;
     width: 33%;
     border-style: solid;
+    border-width: 0.03em;
 }
 .hText {
     font-family: boardHeading;
-    font-size: 5em;
+    font-size: 4em;
 }
 .boardPoints {
     font-family: digital;
-    font-size: 10em;
+    font-size: 9em;
 }
 #controllers {
     position: absolute;
@@ -73,15 +74,21 @@
     font-family: button1;
     font-size: 5em;
     background-color: #f8e85b;
+    width: 50%;
+    text-align: center;
 }
 #wktType {
     display: none;
+    
 }
-.mDown {
+.points:hover {
     background-color: #3a03d0;
 }
-.mDown1 {
+.extras:hover {
     background-color: #02ba71;
+}
+#wktType td:hover {
+    background-color: #fed72f;
 }
 body {
     background-color: #dddddd;
